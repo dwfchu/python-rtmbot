@@ -1,5 +1,4 @@
-import os
-import pickle
+import time
 
 outputs = []
 crontabs = []
@@ -11,26 +10,20 @@ def process_message(data):
     channel = data["channel"]
     text = data["text"]
 
+    def string_list(word_list,a_string):
+        return set(word_list).intersection(a_string.split())
+
     #only accept on bigdata_playpen
     if channel == 'C0EA4CNRG':
-        if channel not in tasks.keys():
-            tasks[channel] = []
-        #do command stuff
-        if text.startswith("todo"):
-            tasks[channel].append(text[5:])
-            outputs.append([channel, "added"])
-        if text == "tasks":
-            output = ""
-            counter = 1
-            for task in tasks[channel]:
-                output += "%i) %s\n" % (counter, task)
-                counter += 1
-            outputs.append([channel, output])
-        if text == "fin":
-            tasks[channel] = []
-        if text.startswith("done"):
-            num = int(text.split()[1]) - 1
-            tasks[channel].pop(num)
-        if text == "show":
-            print tasks
+        if "<@U0E7M8BV1>" in data["text"]:
+            #say hi
+            key_words = ["hello","hey","yo"]
+            if string_list(key_words, text):
+                outputs.append([channel,"Hey you!" ])
+
+            #tell time
+            key_words = ["time"]
+            if string_list(key_words, text):
+                outputs.append([channel,"The current time is " + time.asctime( time.localtime(time.time()))])
+
 

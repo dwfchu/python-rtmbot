@@ -88,6 +88,7 @@ class Plugin(object):
             #self.module = __import__(name)
         #extract only module name
         self.module = __import__(os.path.split(name)[1])
+        print name
 
         self.register_jobs()
         self.outputs = []
