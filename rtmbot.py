@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-
+import os.path
 import sys
+
 sys.dont_write_bytecode = True
 
 import glob
@@ -82,7 +83,12 @@ class Plugin(object):
     def __init__(self, name, plugin_config={}):
         self.name = name
         self.jobs = []
-        self.module = __import__(name)
+
+        #implementation of import by filename doesn't work
+            #self.module = __import__(name)
+        #extract only module name
+        self.module = __import__(os.path.split(name)[1])
+
         self.register_jobs()
         self.outputs = []
         if name in config:
@@ -161,6 +167,7 @@ def main_loop():
     try:
         bot.start()
     except KeyboardInterrupt:
+
         sys.exit(0)
     except:
         logging.exception('OOPS')
@@ -180,10 +187,10 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
     directory = os.path.dirname(sys.argv[0])
-    if not directory.startswith('/'):
-        directory = os.path.abspath("{}/{}".format(os.getcwd(),
-                                directory
-                                ))
+    # if not directory.startswith('/'):
+    #     directory = os.path.abspath("{}/{}".format(os.getcwd(),
+    #                             directory
+    #                             ))
 
     config = yaml.load(file(args.config or 'rtmbot.conf', 'r'))
     debug = config["DEBUG"]
@@ -198,4 +205,5 @@ if __name__ == "__main__":
             with daemon.DaemonContext():
                 main_loop()
     main_loop()
+
 
