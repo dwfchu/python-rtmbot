@@ -1,4 +1,5 @@
 import time
+import sftp_sync
 from chatterbot import ChatBot
 
 chatbot = ChatBot("bigdata_bot")
@@ -31,6 +32,14 @@ def process_message(data):
         # if "<@U0E7M8BV1>" in data["text"]:
         if "<@D0EA1QUE7>" in data["text"] or channel == "D0EA1QUE7":
 
-            # outputs.append([channel,chatbot.get_response(text.replace("<@U0E7M8BV1>",""))])
-            if "--" not in text:
-                outputs.append([channel,chatbot.get_response(text.replace("<@D0EA1QUE7>",""))])
+            #tell time
+            key_words = ["--"]
+            if string_list(key_words,text):
+
+                key_words = ["time"]
+                if string_list(key_words, text):
+                    outputs.append([channel,"The current time is " + time.asctime( time.localtime(time.time()))])
+
+                key_words = ["print"]
+                if string_list(key_words, text):
+                    outputs.append([channel,"I am printing"])
