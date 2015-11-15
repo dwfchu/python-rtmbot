@@ -1,41 +1,13 @@
-import pysftp
 import os
 import shutil
 import datetime
+import sftp_connector
+
 from log import log
 
 local_dir = 'local'
 
-class estConnection():
-
-    def __init__(self,hostname="",username="",password="",port=22):
-        self.host = hostname
-        self.username = username
-        self.password = password
-        self.port = port
-
-    def openConn(self):
-
-        try:
-            conn = pysftp.Connection(host=self.host, username=self.username, password=self.password,port=self.port)
-            log.info('Connection: ' + self.host + ':' + str(self.port) + ' established successfully')
-            return conn
-        except:
-            log.info('Error on connection: ' + self.host + ':' + str(self.port))
-
-
-    def closeConn(self):
-
-        self.close()
-
-def closeConnections(conn):
-    #close connections
-
-    try:
-        conn.close()
-        log.info('Connection closed')
-    except:
-        log.info('Connection close failed')
+copyList = []
 
 def syncProcess():
 
@@ -43,28 +15,22 @@ def syncProcess():
     tar_file_names = []
 
     #open source connection
-    src_conn_set = estConnection("localhost","sftp_usr","Password1")
+    src_conn_set = sftp_connector.estConnection("localhost","sftp_usr","Password1")
     src_conn = src_conn_set.openConn()
-
-    # #open target connection
-    # tar_conn_set = estConnection("localhost","sftp_usr2","Password1",33)
-    # tar_conn = tar_conn_set.openConn()
 
     # Get the directory and file listing
     data_src = src_conn.listdir()
-    data_tar = tar_conn.listdir()
 
-    # Add source files to sync list
+    # Add source dir to sync list
     for i in data_src:
         if src_conn.isdir(i):
             src_file_names.append(i)
 
-    # Add target to sync list
-    for i in data_tar:
-        if tar_conn.isdir(i):
-            tar_file_names.append(i)
+    # Add local dir to sync list
+    tar_file_names = [d for d in os.listdir(local_dir) if os.path.isdir(os.path.join(local_dir, d))]
 
     #compare
+    global copyList
     copyList = list(set(src_file_names) - set(tar_file_names))
     copyListLen = len(copyList)
 
@@ -84,10 +50,7 @@ def syncProcess():
 
     #close connections
     log.info('Source connection status: ' + src_conn_set.host + ':' + str(src_conn_set.port))
-    closeConnections(src_conn)
-    log.info('Target connection status: ' + tar_conn_set.host + ':' + str(tar_conn_set.port))
-    closeConnections(tar_conn)
-
+    sftp_connector.closeConnections(src_conn)
 
 def checkLocal_main():
 
@@ -119,8 +82,11 @@ def do_sync():
         #initiate check and copy process
         syncProcess()
         logShutdown(1)
+        return (True,copyList)
+
     except:
         logShutdown(0)
+        return (False,[])
 
 
 

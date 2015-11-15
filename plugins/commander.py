@@ -1,6 +1,6 @@
 import time
 import globalstatic
-from sftp_sync import SFTPLocal
+from sftp_sync import sftp_local
 
 outputs = []
 crontabs = []
@@ -39,7 +39,7 @@ def process_message(data):
                 if string_list(key_words, text):
                     outputs.append([channel,"I am performing synchronisation tasks....please wait"])
 
-                    status, list = SFTPLocal.do_sync()
+                    status, list = sftp_local.do_sync()
 
                     if status:
                         if len(list) > 0:
