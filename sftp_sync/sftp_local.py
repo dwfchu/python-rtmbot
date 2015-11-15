@@ -2,6 +2,7 @@ import os
 import shutil
 import datetime
 import sftp_connector
+import globalstatic
 
 from log import log
 
@@ -75,7 +76,7 @@ def logShutdown(status):
 
     log.info('\n')
 
-def do_sync():
+def do_sync_local():
     try:
         #check and create local staging directory
         checkLocal_main()
@@ -87,10 +88,6 @@ def do_sync():
     except:
         logShutdown(0)
         return (False,[])
-
-
-
-
 
 
 

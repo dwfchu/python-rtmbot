@@ -1,6 +1,7 @@
 import time
 import globalstatic
 from sftp_sync import sftp_local
+from sftp_sync import sftp_sftp
 
 outputs = []
 crontabs = []
@@ -39,11 +40,13 @@ def process_message(data):
                 if string_list(key_words, text):
                     outputs.append([channel,"I am performing synchronisation tasks....please wait"])
 
-                    status, list = sftp_local.do_sync()
+                    status, list = sftp_sftp.do_sync()
 
                     if status:
                         if len(list) > 0:
+
                             outputs.append([channel,"synchronisation complete, the following directories were successfully copied: \n" + '\n'.join(list)])
+
                         else:
                             outputs.append([channel,"synchronisation complete,no new directories were found"])
                     else:

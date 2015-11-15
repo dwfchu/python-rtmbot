@@ -142,3 +142,540 @@ Connection closed
 Application exited successfuly @ 2015-11-15 13:22:03.051000
 
 
+Application started @ 2015-11-15 15:07:14.685000
+Application started @ 2015-11-15 15:25:51.782000
+Connection: localhost:22 established successfully
+2 directories to be copied...
+Test downloaded
+SFG downloaded
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 15:26:06.147000
+
+
+Application exited with failure @ 2015-11-15 15:26:06.150000
+
+
+Connection: localhost:22 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 15:26:47.730000
+
+
+Connection: localhost:22 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 15:27:20.769000
+
+
+Connection: localhost:22 established successfully
+2 directories to be copied...
+Test downloaded
+SFG downloaded
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 15:27:57.047000
+
+
+Application started @ 2015-11-15 15:33:14.430000
+Connection: localhost:22 established successfully
+2 directories to be copied...
+Test downloaded
+SFG downloaded
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 15:33:29.277000
+
+
+Application exited with failure @ 2015-11-15 15:34:33.207000
+
+
+Application started @ 2015-11-15 21:01:42.692000
+Application started @ 2015-11-15 21:09:25.778000
+Application started @ 2015-11-15 21:13:10.095000
+Connection: localhost:22 established successfully
+2 directories to be copied...
+Test downloaded
+SFG downloaded
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 21:15:28.090000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder does not exist, creating...
+Local folder created...
+Test downloaded
+Local folder does not exist, creating...
+Local folder created...
+SFG downloaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:15:30.639000
+
+
+Application started @ 2015-11-15 21:21:37.251000
+Connection: localhost:22 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 21:22:21.497000
+
+
+Connection: localhost:22 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 21:23:32.712000
+
+
+Connection: localhost:22 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 21:24:54.772000
+
+
+Connection: localhost:22 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Application exited successfuly @ 2015-11-15 21:26:02.167000
+
+
+Application started @ 2015-11-15 21:31:18.387000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:31:45.984000
+
+
+Application started @ 2015-11-15 21:37:06.289000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 21:37:27.075000
+
+
+Application started @ 2015-11-15 21:38:30.574000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Test uploaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+Application exited with failure @ 2015-11-15 21:38:40.561000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:38:56.135000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:42:12.835000
+
+
+Application started @ 2015-11-15 21:42:36.306000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application exited with failure @ 2015-11-15 21:42:46.342000
+
+
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application exited with failure @ 2015-11-15 21:43:25.059000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:46:03.813000
+
+
+Application started @ 2015-11-15 21:46:29.719000
+Application started @ 2015-11-15 21:47:23.892000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:47:39.868000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Test uploaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+Application exited with failure @ 2015-11-15 21:48:08.721000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Test uploaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+Application exited with failure @ 2015-11-15 21:49:50.708000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:50:00.360000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Test uploaded
+Application started @ 2015-11-15 21:54:19.245000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:54:28.605000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+SFG uploaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:54:41.500000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:55:07.205000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+SFG uploaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 21:55:19.895000
+
+
+Application started @ 2015-11-15 21:58:37.576000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+Application exited with failure @ 2015-11-15 21:59:08.309000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+Application exited with failure @ 2015-11-15 22:00:53.967000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:01:15.624000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+Application started @ 2015-11-15 22:02:45.903000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:02:52.676000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+[u'Test', u'SFG'] uploaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:04:46.466000
+
+
+Application started @ 2015-11-15 22:05:46.533000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+[u'Test', u'SFG'] uploaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:06:01.238000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:07:13.978000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:07:24.686000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:09:06.727000
+
+
+Application started @ 2015-11-15 22:10:50.819000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+[u'Test'] uploaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:10:57.327000
+
+
+Application started @ 2015-11-15 22:11:37.154000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:12:01.125000
+
+
+Application started @ 2015-11-15 22:13:16.123000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:13:31.045000
+
+
+Application started @ 2015-11-15 22:15:21.473000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+2 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Local folder exists, deleting...
+Local folder deleted...
+SFG downloaded
+[u'Test', u'SFG'] uploaded
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:15:25.283000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:16:13.915000
+
+
+Application started @ 2015-11-15 22:16:52.478000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application started @ 2015-11-15 22:19:45.927000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application started @ 2015-11-15 22:21:57.458000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:22:07.801000
+
+
+Application started @ 2015-11-15 22:22:50.700000
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:22:58.361000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+All folders in sync...nothing to do
+Source connection status: localhost:22
+Connection closed
+Target connection status: localhost:33
+Connection closed
+Application exited successfully @ 2015-11-15 22:26:16.347000
+
+
+Connection: localhost:22 established successfully
+Connection: localhost:33 established successfully
+1 directories to be copied...
+Local folder exists, deleting...
+Local folder deleted...
+Test downloaded
+Application exited with failure @ 2015-11-15 22:26:38.352000
+
+
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application exited with failure @ 2015-11-15 22:28:08.172000
+
+

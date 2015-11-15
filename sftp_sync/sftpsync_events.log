@@ -154,3 +154,49 @@ Connection closed
 Application exited successfuly @ 2015-11-08 20:04:30.926000
 
 
+Application started @ 2015-11-15 22:29:32.222000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:29:55.547000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:30:32.046000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:31:10.893000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:32:29.173000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:32:35.746000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:33:16.402000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:35:44.882000
+Connection: localhost:22 established successfully
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:37:50.498000
+Error on connection: localhost:22
+Connection: localhost:33 established successfully
+Application started @ 2015-11-15 22:39:11.018000
+Error on connection: localhost:22
+Connection: localhost:33 established successfully
+Application started @ 2015-11-15 22:40:45.357000
+Error on connection: localhost:22
+Connection: localhost:33 established successfully
+Application started @ 2015-11-15 22:41:42.476000
+Application started @ 2015-11-15 22:41:51.001000
+Error on connection: localhost:22
+Connection: localhost:33 established successfully
+Application started @ 2015-11-15 22:42:37.121000
+Error on connection: localhost:22
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:43:38.553000
+Error on connection: localhost:22
+Error on connection: localhost:33
+Application started @ 2015-11-15 22:44:40.786000
+Error on connection: localhost:22
+Error on connection: localhost:33
